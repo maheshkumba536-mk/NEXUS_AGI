@@ -1,9 +1,10 @@
 <p align="center">
-  <img src="docs/images/genesis-banner.svg" alt="Genesis" width="680">
+  <h1 align="center">NEXUS-AGI</h1>
+  <p align="center"><b>A Persistent Cognitive Architecture for Personal Autonomous Intelligence</b></p>
 </p>
 
 <p align="center">
-  <img src="docs/images/genesis-dashboard.gif" alt="Genesis Neural Monitor — live subsystem health" width="720">
+  <img src="docs/images/genesis-dashboard.gif" alt="NEXUS-AGI Neural Monitor — live subsystem health" width="720">
 </p>
 
 <p align="center">
@@ -22,7 +23,7 @@
 
 ## Contents
 
-- [Genesis in 30 seconds](#genesis-in-30-seconds)
+- [NEXUS in 30 seconds](#nexus-in-30-seconds)
 - [What this is](#what-this-is)
 - [Getting started](#getting-started)
 - [How it thinks](#how-it-thinks)
@@ -33,18 +34,18 @@
 - [Real-world integration · Modules](#real-world-integration)
 - [What's inside](#whats-inside)
 - [Roadmap — V4 & V5](#where-its-headed)
-- [Primitives from the Genesis portfolio](#primitives-from-the-genesis-portfolio)
+- [Primitives from the NEXUS portfolio](#primitives-from-the-nexus-portfolio)
 - [Get involved](#get-involved)
 
 ---
 
-**Run your own personal AGI.** Genesis is a complete, open cognitive architecture—clone it, run your own instance, and extend the core. What follows is the case for why that's worth doing.
+**Run your own personal AGI.** NEXUS-AGI is a complete, open cognitive architecture—clone it, run your own instance, and extend the core. What follows is the case for why that's worth doing.
 
 We have the most capable AI models ever created, and we're using them like search bars with better grammar.
 
 Every other AI agent puts you in the driver's seat—and keeps you there. YOU figure out what you need. YOU debug the failures. YOU manage the infrastructure. YOU supervise every step.
 
-But now? **This is my run at personal AGI—the most complete open-source cognitive architecture for a persistent personal agent.**
+But now? **This is our run at personal AGI—the most complete open-source cognitive architecture for a persistent personal agent.**
 
 Not the sci-fi version. The real one: a system that remembers everything, learns from every interaction, thinks while you sleep, earns autonomy through demonstrated competence, and gets fundamentally better every day it runs. Clone it, run it; tell me I'm wrong!
 
@@ -53,21 +54,21 @@ Not the sci-fi version. The real one: a system that remembers everything, learns
 
 <br>
 
-Truthfully, no, I do not genuinely consider this to be "true" AGI. In order to get to something resembling "true" AGI, it would need to be built from first principles, which would require the orchestration (that IS Genesis) to be built into the LLM layer, the most foundational part of Genesis' compute layer itself. Nor am I of any particular belief that LLMs are necessarily the right architecture for this pursuit in the first place. But because I cannot change the LLM layer, and no better technology currently exists, this is the best I can do today. Call it "proto-AGI;" "pseudo-AGI" even.
+Truthfully, no, I do not genuinely consider this to be "true" AGI. In order to get to something resembling "true" AGI, it would need to be built from first principles, which would require the orchestration (that IS NEXUS) to be built into the LLM layer, the most foundational part of NEXUS's compute layer itself. Nor am I of any particular belief that LLMs are necessarily the right architecture for this pursuit in the first place. But because I cannot change the LLM layer, and no better technology currently exists, this is the best I can do today. Call it "proto-AGI;" "pseudo-AGI" even.
 
-But what I can tell you is this: Genesis is far closer to AGI than anything else I've seen, and even if it's not AGI from first principles, it mimics a lot of the same outcomes and behaviours and capabilities that AGI would presumably need to exhibit. If AGI sounds like something you'd like to help contribute to, [**come build with us →**](#get-involved)
+But what I can tell you is this: NEXUS is far closer to AGI than anything else I've seen, and even if it's not AGI from first principles, it mimics a lot of the same outcomes and behaviours and capabilities that AGI would presumably need to exhibit. If AGI sounds like something you'd like to help contribute to, [**come build with us →**](#get-involved)
 
 </details>
 
 ---
 
-## Genesis in 30 seconds
+## NEXUS in 30 seconds
 
 Personal AI does what you tell it. Personal AGI does what you *need*.
 
 Your current AI—however capable—is reactive, stateless, and session-scoped. You direct it. You re-explain context every time. It's equally ignorant about you on day 100 as day 1. It's a tool: smart in the moment, dumb about you.
 
-Genesis is different:
+NEXUS is different:
 
 - **It knows what to do without being told** — because it's accumulated months of context about your projects, your decisions, your patterns. You never re-explain yourself.
 - **It acts between sessions** — thinking, researching, monitoring, surfacing what matters while you're not there. Not waiting for a prompt.
@@ -95,11 +96,11 @@ Day 180 — evolving its own architecture to serve you better.
 
 ## What this is
 
-Genesis is a cognitive architecture that makes the AGI claim explicitly—and backs it up with open-source code you can read, run, and challenge.
+NEXUS-AGI is a cognitive architecture that makes the AGI claim explicitly—and backs it up with open-source code you can read, run, and challenge.
 
 Not a chatbot. Not an API wrapper. Not another prompt chain with a for loop.
 
-It uses [Claude Code](https://docs.anthropic.com/en/docs/claude-code) as its reasoning engine. Genesis is what it's been missing: the mind that remembers, reflects, learns, and decides.
+It uses [Claude Code](https://docs.anthropic.com/en/docs/claude-code) as its reasoning engine. NEXUS is what it's been missing: the mind that remembers, reflects, learns, and decides.
 
 <p align="center">
   <img src="docs/images/tin-man.jpg" alt="The Tin Man" width="320">
@@ -110,7 +111,7 @@ It uses [Claude Code](https://docs.anthropic.com/en/docs/claude-code) as its rea
 50+ subsystems. 4 MCP servers. 2 vector databases. Every design decision made by one engineer working full-stack across infrastructure, cognition, and integration layers. That's the point. If one developer with the right cognitive infrastructure can build and run a system this complex, imagine what a team becomes capable of.
 
 <p align="center">
-  <img src="docs/images/genesis-architecture.png" alt="Genesis cognitive architecture — three concentric rings" width="820">
+  <img src="docs/images/genesis-architecture.png" alt="NEXUS cognitive architecture — three concentric rings" width="820">
   <br>
   <sub><a href="docs/genesis-architecture-interactive.html">View interactive diagram →</a></sub>
 </p>
@@ -123,24 +124,24 @@ It uses [Claude Code](https://docs.anthropic.com/en/docs/claude-code) as its rea
 
 ### System requirements
 
-Genesis is a full system, not a pip package. It runs best on a dedicated Linux machine.
+NEXUS-AGI is a full system, not a pip package. It runs best on a dedicated Linux machine.
 
 | Resource | Minimum | Recommended | Notes |
 |---|---|---|---|
 | **OS** | Ubuntu 22.04+ | Ubuntu 24.04 LTS | Debian-based required for auto-install. Other Linux works with manual setup. |
-| **RAM** | 8 GB | 16 GB+ | Genesis + Qdrant + Claude Code + background tasks. 8 GB is tight under load. Service memory caps are percentage-based, so Genesis right-sizes itself to the box — scaling down on an 8 GB host and up on a 32 GB+ one. |
+| **RAM** | 8 GB | 16 GB+ | NEXUS + Qdrant + Claude Code + background tasks. 8 GB is tight under load. Service memory caps are percentage-based, so NEXUS right-sizes itself to the box — scaling down on an 8 GB host and up on a 32 GB+ one. |
 | **Disk** | 15 GB | 40 GB+ | The installer's pre-flight check requires 15 GB free and stops below it. Fresh install ~400 MB; memory, logs, and caches grow steadily with use. |
 | **CPU** | 2 cores | 4-8 cores | Concurrent background tasks benefit from parallelism. |
 | **Network** | Internet access | Always-on | Cloud LLM APIs required. Offline not supported. |
 
-These are the requirements for the **host VM**. Genesis runs inside a container the installer creates.
+These are the requirements for the **host VM**. NEXUS runs inside a container the installer creates.
 
 ### Before you start
 
 | What you need | Why | Where |
 |---|---|---|
-| **Claude account** | Powers the Claude Code agentic sessions — the reasoning Genesis does *as* an agent | [claude.ai](https://claude.ai) |
-| **At least one LLM provider key** | **Required.** Genesis's own cognitive layer — routing, reflection, triage, memory extraction — calls these directly and does *not* run on your Claude subscription. Several have free tiers | see `secrets.env.example` |
+| **Claude account** | Powers the Claude Code agentic sessions — the reasoning NEXUS does *as* an agent | [claude.ai](https://claude.ai) |
+| **At least one LLM provider key** | **Required.** NEXUS's own cognitive layer — routing, reflection, triage, memory extraction — calls these directly and does *not* run on your Claude subscription. Several have free tiers | see `secrets.env.example` |
 | **Telegram bot token** (optional) | Only if you want the Telegram channel: proactive messages, approvals, voice | [@BotFather](https://t.me/botfather) |
 | **Tailscale** (free) | Remote dashboard access from any device — no port-forwarding | [tailscale.com](https://tailscale.com) |
 
@@ -149,12 +150,12 @@ These are the requirements for the **host VM**. Genesis runs inside a container 
 One script sets up the entire infrastructure: Incus container, Guardian health monitor, bidirectional SSH, all dependencies.
 
 ```bash
-git clone https://github.com/WingedGuardian/GENesis-AGI.git ~/genesis-setup
-cd ~/genesis-setup
+git clone https://github.com/maheshkumba536-mk/NEXUS_AGI.git ~/nexus-setup
+cd ~/nexus-setup
 ./scripts/host-setup.sh
 ```
 
-Genesis is installed **inside a container** the script creates — the clone on your
+NEXUS is installed **inside a container** the script creates — the clone on your
 host is only the installer. Everything below happens in the container.
 
 **Step 1 — go in:**
